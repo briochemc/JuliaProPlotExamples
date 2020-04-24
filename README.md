@@ -34,7 +34,7 @@ Click on the images below to be directed to the julia code that produced it.
 
 ### Automatic figure sizing
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-1.svg.svg">
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-1.svg">
 <img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-2.svg">](subplots/Automatic-figure-sizing.jl)
 
 ## Notes
