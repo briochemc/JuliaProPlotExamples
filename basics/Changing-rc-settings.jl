@@ -5,7 +5,6 @@
 # Import proplot using PyCall
 using PyCall
 proplot = pyimport("proplot")
-using PyPlot
 
 # Update global settings in several different ways
 proplot.rc.cycle = "colorblind"
@@ -41,3 +40,4 @@ ay.plot(cumsum(rand(100) .- 0.2), color="r", lw=3)
 
 # Reset persistent modifications from head of cell
 proplot.rc.reset()
+f.savefig("Changing-rc-settings.svg", transparent=false)

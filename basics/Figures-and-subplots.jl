@@ -5,7 +5,6 @@
 # Import proplot using PyCall
 using PyCall
 proplot = pyimport("proplot")
-using PyPlot
 
 # start of example
 data = cumsum(2(rand(100, 5) .- 0.5), dims=1)
@@ -18,6 +17,7 @@ axs[1].format(xticks=20, xtickminor=false)
     suptitle="Simple subplot grid", title="Title",
     xlabel="x axis", ylabel="y axis"
 ) for ax in axs]
+f.savefig("Figures-and-subplots-1.svg", transparent=false)
 
 # Complex grid
 array = [  # the "picture"; 1 == subplot a, 2 == subplot b, etc.
@@ -30,6 +30,7 @@ f, axs = proplot.subplots(array, axwidth=1.8)
     xlabel="xlabel", ylabel="ylabel"
 ) for ax in axs]
 axs[3].plot(data, lw=2)
+f.savefig("Figures-and-subplots-2.svg", transparent=false)
 
 # Really complex grid
 array = [  # the "picture"
@@ -44,3 +45,4 @@ f, axs = proplot.subplots(array, width=5, span=false)
     xlabel="xlabel", ylabel="ylabel", abc=true
 ) for ax in axs]
 axs[1].plot(data, lw=2)
+f.savefig("Figures-and-subplots-3.svg", transparent=false)

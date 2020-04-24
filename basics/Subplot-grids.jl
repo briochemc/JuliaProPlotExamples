@@ -5,7 +5,6 @@
 # Import proplot using PyCall
 using PyCall
 proplot = pyimport("proplot")
-using PyPlot
 
 f, axs = proplot.subplots(ncols=4, nrows=4, axwidth=1.2)
 [ax.format(
@@ -24,3 +23,4 @@ axs[1].format(color="black", facecolor="gray5", linewidth=1.4)
 for ax in axs[2:end, 2:end]
     ax.plot(cumsum(rand(50, 5) .- 0.5, dims=1), cycle="Grays", lw=2)
 end
+f.savefig("Subplot-grids.svg", transparent=false)

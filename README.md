@@ -1,7 +1,7 @@
 
 # Julia ProPlot Examples
 
-Here you will find some (most?) of the [ProPlot](https://proplot.readthedocs.io/en/latest/index.html) examples from the documentation, but translated to Julia using [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) and [PyPlot.jl](https://github.com/JuliaPy/PyPlot.jl).
+Here you will find some (most?) of the [ProPlot](https://proplot.readthedocs.io/en/latest/index.html) examples from the documentation, but translated to Julia using [PyCall.jl](https://github.com/JuliaPy/PyCall.jl).
 
 Note you must install ProPlot first. (And probably some other things.)
 
@@ -14,22 +14,28 @@ Click on the images below to be directed to the julia code that produced it.
 ### Figures and subplots
 
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Figures-and-subplots-1.svg">
-<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Figures-and-subplots-2.svg">
-<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Figures-and-subplots-3.svg">](basics/Figures-and-subplots.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Figures-and-subplots-1.svg">
+<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Figures-and-subplots-2.svg">
+<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Figures-and-subplots-3.svg">](basics/Figures-and-subplots.jl)
 
 ### Formatting subplots
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Formatting-subplots.svg">](basics/Formatting-subplots.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Formatting-subplots.svg">](basics/Formatting-subplots.jl)
 
 ### Changing rc settings
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Changing-rc-settings.svg">](basics/Changing-rc-settings.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Changing-rc-settings.svg">](basics/Changing-rc-settings.jl)
 
 ### Subplot grids
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Subplot-grids.svg">](basics/Subplot-grids.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Subplot-grids.svg">](basics/Subplot-grids.jl)
 
+## Subplots features
+
+### Automatic figure sizing
+
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-1.svg.svg">
+<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-2.svg">](subplots/Automatic-figure-sizing.jl)
 
 ## Notes
 
@@ -39,4 +45,4 @@ Click on the images below to be directed to the julia code that produced it.
 
 1. `f, axs = proplot.subplots()` returns a vector of axes, even if you specify multiple columns, so that you need to reshape (and transpose) the `axs` array to get access to the axes in the "expected" way.
 
-1. I saved the images via `savefig("X.png")`, which did not preserve some features.
+1. I saved the images via `f.savefig("X.svg", transparent=false)`.
