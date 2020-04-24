@@ -11,21 +11,21 @@ Click on the images below to be directed to the julia code that produced it
 ### Figures and subplots
 
 
-[<img src="https://user-images.githubusercontent.com/4486578/80186449-57b25780-8651-11ea-85bf-81f3cf7c96e8.png" width=50%>
-<img src="https://user-images.githubusercontent.com/4486578/80186451-584aee00-8651-11ea-9f11-0745f3aa28ca.png" width=50%>
-<img src="https://user-images.githubusercontent.com/4486578/80186453-58e38480-8651-11ea-8f06-a6462553fde0.png" width=50%>](basics/Figures-and-subplots.jl)
+[<img src="https://user-images.githubusercontent.com/4486578/80190356-87fcf480-8657-11ea-94be-39bf4a465457.png" width=50%>
+<img src="https://user-images.githubusercontent.com/4486578/80190357-892e2180-8657-11ea-82d4-082996f93f91.png" width=50%>
+<img src="https://user-images.githubusercontent.com/4486578/80190363-8b907b80-8657-11ea-8c1e-216a9dcb663c.png" width=50%>](basics/Figures-and-subplots.jl)
 
 ### Formatting subplots
 
-[<img src="https://user-images.githubusercontent.com/4486578/80186455-597c1b00-8651-11ea-9f53-cc4661ceedd9.png" width=50%>](basics/Formatting-subplots.jl)
+[<img src="https://user-images.githubusercontent.com/4486578/80190595-e75b0480-8657-11ea-86e8-f9d2223eb744.png" width=50%>](basics/Formatting-subplots.jl)
 
 ### Changing rc settings
 
-[<img src="https://user-images.githubusercontent.com/4486578/80186436-541ed080-8651-11ea-88a1-5e69b19a6ea3.png" width=50%>](basics/Changing-rc-settings.jl)
+[<img src="https://user-images.githubusercontent.com/4486578/80190715-13768580-8658-11ea-9077-82e8e674458b.png" width=50%>](basics/Changing-rc-settings.jl)
 
 ### Subplot grids
 
-[<img src="https://user-images.githubusercontent.com/4486578/80186458-5aad4800-8651-11ea-8030-bdcc7abdf7f8.png" width=50%>](basics/Subplot-grids.jl)
+[<img src="https://user-images.githubusercontent.com/4486578/80191372-eecedd80-8658-11ea-9200-d063897efbcc.png" width=50%>](basics/Subplot-grids.jl)
 
 
 ## Notes
