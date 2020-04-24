@@ -10,24 +10,21 @@ Click on the images below to be directed to the julia code that produced it
 
 #### Figures and subplots
 
-
-[![Figures-and-subplots-1](Basics/Figures-and-subplots-1.jl)](https://user-images.githubusercontent.com/4486578/80186449-57b25780-8651-11ea-85bf-81f3cf7c96e8.png)
-
-[![Figures-and-subplots-2](Basics/Figures-and-subplots-2.jl)](https://user-images.githubusercontent.com/4486578/80186451-584aee00-8651-11ea-9f11-0745f3aa28ca.png)
-
-[![Figures-and-subplots-3](Basics/Figures-and-subplots-3.jl)](https://user-images.githubusercontent.com/4486578/80186453-58e38480-8651-11ea-8f06-a6462553fde0.png)
+[<img src="https://user-images.githubusercontent.com/4486578/80186449-57b25780-8651-11ea-85bf-81f3cf7c96e8.png" width=66%>](Basics/Figures-and-subplots-1.jl)
+[<img src="https://user-images.githubusercontent.com/4486578/80186451-584aee00-8651-11ea-9f11-0745f3aa28ca.png" width=66%>](Basics/Figures-and-subplots-2.jl)
+[<img src="https://user-images.githubusercontent.com/4486578/80186453-58e38480-8651-11ea-8f06-a6462553fde0.png" width=66%>](Basics/Figures-and-subplots-3.jl)
 
 #### Formatting subplots
 
-[![Formatting-subplots](Basics/Formatting-subplots.jl)](https://user-images.githubusercontent.com/4486578/80186455-597c1b00-8651-11ea-9f53-cc4661ceedd9.png)
+[<img src="https://user-images.githubusercontent.com/4486578/80186455-597c1b00-8651-11ea-9f53-cc4661ceedd9.png" width=66%>](Basics/Formatting-subplots.jl)
 
 #### Changing rc settings
 
-[![Changing-rc-settings](Basics/Changing-rc-settings.jl)](https://user-images.githubusercontent.com/4486578/80186436-541ed080-8651-11ea-88a1-5e69b19a6ea3.png)
+[<img src="https://user-images.githubusercontent.com/4486578/80186436-541ed080-8651-11ea-88a1-5e69b19a6ea3.png" width=66%>](Basics/Changing-rc-settings.jl)
 
 #### Subplot grids
 
-[![Subplot-grids](Basics/Subplot-grids.jl)](https://user-images.githubusercontent.com/4486578/80186458-5aad4800-8651-11ea-8030-bdcc7abdf7f8.png)
+[<img src="https://user-images.githubusercontent.com/4486578/80186458-5aad4800-8651-11ea-8030-bdcc7abdf7f8.png" width=66%>](Basics/Subplot-grids.jl)
 
 
 ### Notes
