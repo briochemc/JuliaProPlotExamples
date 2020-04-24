@@ -1,10 +1,13 @@
 
-# JuliaProPlotExamples
+# Julia ProPlot Examples
 
-The proplot examples translated to Julia using PyCall.jl and PyPlot.jl.
+Here you will find some (most?) of the [ProPlot](https://proplot.readthedocs.io/en/latest/index.html) examples from the documentation, but translated to Julia using [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) and [PyPlot.jl](https://github.com/JuliaPy/PyPlot.jl).
 
-Click on the images below to be directed to the julia code that produced it
+Note you must install ProPlot first. (And probably some other things.)
 
+---
+
+Click on the images below to be directed to the julia code that produced it. 
 
 ## Basics
 
@@ -35,3 +38,5 @@ Click on the images below to be directed to the julia code that produced it
 1. You can't format all the subplots at once with `axs.format` AFAIK, so you have to loop through all axes and format each of them.
 
 1. `f, axs = proplot.subplots()` returns a vector of axes, even if you specify multiple columns, so that you need to reshape (and transpose) the `axs` array to get access to the axes in the "expected" way.
+
+1. I saved the images via `savefig("X.png")`, which did not preserve some features.
