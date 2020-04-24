@@ -14,21 +14,21 @@ Click on the images below to be directed to the julia code that produced it.
 ### Figures and subplots
 
 
-[<img src="https://user-images.githubusercontent.com/4486578/80190356-87fcf480-8657-11ea-94be-39bf4a465457.png" width=50%>
-<img src="https://user-images.githubusercontent.com/4486578/80190357-892e2180-8657-11ea-82d4-082996f93f91.png" width=50%>
-<img src="https://user-images.githubusercontent.com/4486578/80190363-8b907b80-8657-11ea-8c1e-216a9dcb663c.png" width=50%>](basics/Figures-and-subplots.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Figures-and-subplots-1.svg">
+<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Figures-and-subplots-2.svg">
+<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Figures-and-subplots-3.svg">](basics/Figures-and-subplots.jl)
 
 ### Formatting subplots
 
-[<img src="https://user-images.githubusercontent.com/4486578/80190595-e75b0480-8657-11ea-86e8-f9d2223eb744.png" width=50%>](basics/Formatting-subplots.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Formatting-subplots.svg">](basics/Formatting-subplots.jl)
 
 ### Changing rc settings
 
-[<img src="https://user-images.githubusercontent.com/4486578/80190715-13768580-8658-11ea-9077-82e8e674458b.png" width=50%>](basics/Changing-rc-settings.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Changing-rc-settings.svg">](basics/Changing-rc-settings.jl)
 
 ### Subplot grids
 
-[<img src="https://user-images.githubusercontent.com/4486578/80191372-eecedd80-8658-11ea-9200-d063897efbcc.png" width=50%>](basics/Subplot-grids.jl)
+[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/b348d0832f657aae4f466ec4e22d733f19bc9f71/Subplot-grids.svg">](basics/Subplot-grids.jl)
 
 
 ## Notes
