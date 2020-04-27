@@ -20,32 +20,32 @@ Click on the images below to be directed to the julia code that produced it.
 
 ### Formatting subplots
 
-[<img src="figs/Formatting-subplots.svg" width=30%>](src/basics/Formatting-subplots.jl)
+[<img src="figs/Formatting-subplots.svg" width=50%>](src/basics/Formatting-subplots.jl)
 
 ### Changing rc settings
 
-[<img src="figs/Changing-rc-settings.svg" width=30%>](src/basics/Changing-rc-settings.jl)
+[<img src="figs/Changing-rc-settings.svg" width=50%>](src/basics/Changing-rc-settings.jl)
 
 ### Subplot grids
 
-[<img src="figs/Subplot-grids.svg" width=30%>](src/basics/Subplot-grids.jl)
+[<img src="figs/Subplot-grids.svg" width=50%>](src/basics/Subplot-grids.jl)
 
 ## Subplots features
 
 ### Automatic figure sizing
 
-[<img src="figs/Automatic-figure-sizing-1a.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-1b.svg" width=30%>](src/subplots/Automatic-figure-sizing-1.jl)
+[<img src="figs/Automatic-figure-sizing-1a.svg" width=40%>
+<img src="figs/Automatic-figure-sizing-1b.svg" width=40%>](src/subplots/Automatic-figure-sizing-1.jl)
 
-[<img src="figs/Automatic-figure-sizing-2a-1.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-2a-2.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-2b-1.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-2b-2.svg" width=30%>](src/subplots/Automatic-figure-sizing-2.jl)
+[<img src="figs/Automatic-figure-sizing-2a-1.svg" width=24%>
+<img src="figs/Automatic-figure-sizing-2a-2.svg" width=24%>
+<img src="figs/Automatic-figure-sizing-2b-1.svg" width=24%>
+<img src="figs/Automatic-figure-sizing-2b-2.svg" width=24%>](src/subplots/Automatic-figure-sizing-2.jl)
 
-[<img src="figs/Automatic-figure-sizing-3a-1.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-3a-2.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-3b-1.svg" width=30%>
-<img src="figs/Automatic-figure-sizing-3b-2.svg" width=30%>](src/subplots/Automatic-figure-sizing-3.jl)
+[<img src="figs/Automatic-figure-sizing-3a-1.svg" width=24%>
+<img src="figs/Automatic-figure-sizing-3a-2.svg" width=24%>
+<img src="figs/Automatic-figure-sizing-3b-1.svg" width=24%>
+<img src="figs/Automatic-figure-sizing-3b-2.svg" width=24%>](src/subplots/Automatic-figure-sizing-3.jl)
 
 ## Notes
 
