@@ -14,28 +14,36 @@ Click on the images below to be directed to the julia code that produced it.
 ### Figures and subplots
 
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Figures-and-subplots-1.svg">
-<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Figures-and-subplots-2.svg">
-<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Figures-and-subplots-3.svg">](basics/Figures-and-subplots.jl)
+[<img src="figs/Figures-and-subplots-1.svg" width=30%>
+<img src="figs/Figures-and-subplots-2.svg" width=30%>
+<img src="figs/Figures-and-subplots-3.svg" width=30%>](basics/Figures-and-subplots.jl)
 
 ### Formatting subplots
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Formatting-subplots.svg">](basics/Formatting-subplots.jl)
+[<img src="figs/Formatting-subplots.svg" width=30%>](basics/Formatting-subplots.jl)
 
 ### Changing rc settings
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Changing-rc-settings.svg">](basics/Changing-rc-settings.jl)
+[<img src="figs/Changing-rc-settings.svg" width=30%>](basics/Changing-rc-settings.jl)
 
 ### Subplot grids
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Subplot-grids.svg">](basics/Subplot-grids.jl)
+[<img src="figs/Subplot-grids.svg" width=30%>](basics/Subplot-grids.jl)
 
 ## Subplots features
 
 ### Automatic figure sizing
 
-[<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-1.svg">
-<img src="https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28/raw/8dc99126f838f4ed4cb1eaec5c9286caaa89b44e/Automatic-figure-sizing-2.svg">](subplots/Automatic-figure-sizing.jl)
+[<img src="figs/Automatic-figure-sizing-1a.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-1b.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-2a-1.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-2a-2.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-2b-1.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-2b-2.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-3a-1.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-3a-2.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-3b-1.svg" width=30%>
+<img src="figs/Automatic-figure-sizing-3b-2.svg" width=30%>](subplots/Automatic-figure-sizing.jl)
 
 ## Notes
 
