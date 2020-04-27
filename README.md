@@ -43,6 +43,6 @@ Click on the images below to be directed to the julia code that produced it.
 
 1. You can't format all the subplots at once with `axs.format` AFAIK, so you have to loop through all axes and format each of them.
 
-1. `f, axs = proplot.subplots()` returns a vector of axes, even if you specify multiple columns, so that you need to reshape (and transpose) the `axs` array to get access to the axes in the "expected" way.
+1. `f, axs = proplot.subplots()` returns a vector of axes, even if you specify multiple columns, so that you need to reshape (and transpose) the `axs` array to get access to the axes in Cartesian coordinates (i.e., as in `axs[i,j]`).
 
-1. I saved the images via `f.savefig("X.svg", transparent=false)`.
+1. I saved the images to [this gist](https://gist.github.com/briochemc/205e88cd3bfb13dd8c42c539a32afe28) (via `f.savefig("X.svg")`).
