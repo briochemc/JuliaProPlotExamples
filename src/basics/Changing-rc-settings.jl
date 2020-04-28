@@ -40,4 +40,4 @@ ay.plot(cumsum(rand(100) .- 0.2), color="r", lw=3)
 
 # Reset persistent modifications from head of cell
 proplot.rc.reset()
-f.savefig("figs/Changing-rc-settings.svg")
+f.savefig("figs/Changing-rc-settings.svg", transparent=false)

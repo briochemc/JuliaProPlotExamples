@@ -18,7 +18,7 @@ for ref in (1, 2)
         title="reference axes", titleweight="bold",
         titleloc="uc", titlecolor="red9"
     )
-    f.savefig("figs/Automatic-figure-sizing-3a-$ref.svg")
+    f.savefig("figs/Automatic-figure-sizing-3a-$ref.svg", transparent=false)
 end
 
 # Changing the reference subplot in a complex grid
@@ -33,6 +33,6 @@ for (i,ref) in enumerate((3, 2))
         title="reference axes", titleweight="bold",
         titleloc="uc", titlecolor="red9"
     )
-    f.savefig("figs/Automatic-figure-sizing-3b-$i.svg")
+    f.savefig("figs/Automatic-figure-sizing-3b-$i.svg", transparent=false)
 end
 

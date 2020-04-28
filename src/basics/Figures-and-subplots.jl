@@ -17,7 +17,7 @@ axs[1].format(xticks=20, xtickminor=false)
     suptitle="Simple subplot grid", title="Title",
     xlabel="x axis", ylabel="y axis"
 ) for ax in axs]
-f.savefig("figs/Figures-and-subplots-1.svg")
+f.savefig("figs/Figures-and-subplots-1.svg", transparent=false)
 
 # Complex grid
 array = [  # the "picture"; 1 == subplot a, 2 == subplot b, etc.
@@ -30,7 +30,7 @@ f, axs = proplot.subplots(array, axwidth=1.8)
     xlabel="xlabel", ylabel="ylabel"
 ) for ax in axs]
 axs[3].plot(data, lw=2)
-f.savefig("figs/Figures-and-subplots-2.svg")
+f.savefig("figs/Figures-and-subplots-2.svg", transparent=false)
 
 # Really complex grid
 array = [  # the "picture"
@@ -45,4 +45,4 @@ f, axs = proplot.subplots(array, width=5, span=false)
     xlabel="xlabel", ylabel="ylabel", abc=true
 ) for ax in axs]
 axs[1].plot(data, lw=2)
-f.savefig("figs/Figures-and-subplots-3.svg")
+f.savefig("figs/Figures-and-subplots-3.svg", transparent=false)

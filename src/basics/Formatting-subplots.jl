@@ -21,4 +21,4 @@ axs[1].plot(range(1, 10, length=80), cumsum(rand(80, 5) .- 0.5, dims=1))
     ytickloc="both", yticklabelloc="both", ygridminor=true,
     linewidth=0.8, gridlinewidth=0.8, gridminorlinewidth=0.5,
 ) for ax in axs]
-f.savefig("figs/Formatting-subplots.svg")
+f.savefig("figs/Formatting-subplots.svg", transparent=false)
