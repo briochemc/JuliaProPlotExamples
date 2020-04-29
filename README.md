@@ -49,8 +49,8 @@ Click on the images below to be directed to the julia code that produced it.
 
 ### Automatic subplot spacing
 
-[<img src="figs/Automatic-subplot-spacing-1.svg" width=50%>](src/subplots/Automatic-subplot-spacing-1.jl)
-[<img src="figs/Automatic-subplot-spacing-2.svg" width=50%>](src/subplots/Automatic-subplot-spacing-2.jl)
+[<img src="figs/Automatic-subplot-spacing-1.svg" width=40%>](src/subplots/Automatic-subplot-spacing-1.jl)
+[<img src="figs/Automatic-subplot-spacing-2.svg" width=40%>](src/subplots/Automatic-subplot-spacing-2.jl)
 
 ### Arbitrary physical units
 
@@ -74,8 +74,8 @@ Click on the images below to be directed to the julia code that produced it.
 
 ### Axes colorbars and legends
 
-[<img src="figs/Axes-colorbars-and-legends-1.svg" width=50%>](src/colorbars_legends/Axes-colorbars-and-legends-1.jl)
-[<img src="figs/Axes-colorbars-and-legends-2.svg" width=50%>](src/colorbars_legends/Axes-colorbars-and-legends-2.jl)
+[<img src="figs/Axes-colorbars-and-legends-1.svg" width=40%>](src/colorbars_legends/Axes-colorbars-and-legends-1.jl)
+[<img src="figs/Axes-colorbars-and-legends-2.svg" width=40%>](src/colorbars_legends/Axes-colorbars-and-legends-2.jl)
 
 
 ## Notes
