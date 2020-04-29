@@ -70,6 +70,14 @@ Click on the images below to be directed to the julia code that produced it.
 [<img src="figs/Shared-and-spanning-labels-2a.svg" width=40%>
 <img src="figs/Shared-and-spanning-labels-2b.svg" width=40%>](src/subplots/Shared-and-spanning-labels-2.jl)
 
+## Colorbars and legends
+
+### Axes colorbars and legends
+
+[<img src="figs/Axes-colorbars-and-legends-1.svg" width=50%>](src/colorbars_legends/Axes-colorbars-and-legends-1.jl)
+[<img src="figs/Axes-colorbars-and-legends-2.svg" width=50%>](src/colorbars_legends/Axes-colorbars-and-legends-2.jl)
+
+
 ## Notes
 
 1. Python's 0-based indexing means all the indices are shifted in these Julia examples.
