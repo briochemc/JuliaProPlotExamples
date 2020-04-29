@@ -52,8 +52,27 @@ Click on the images below to be directed to the julia code that produced it.
 [<img src="figs/Automatic-subplot-spacing-1.svg" width=50%>](src/subplots/Automatic-subplot-spacing-1.jl)
 [<img src="figs/Automatic-subplot-spacing-2.svg" width=50%>](src/subplots/Automatic-subplot-spacing-2.jl)
 
+### Arbitrary physical units
+
+[<img src="figs/Arbitrary-physical-units.svg" width=50%>](src/subplots/Arbitrary-physical-units.jl)
+
+### Subplot numbers and a-b-c labels
+
+[<img src="figs/Subplot-numbers-and-a-b-c-labels.svg" width=50%>](src/subplots/Subplot-numbers-and-a-b-c-labels.jl)
+
+### Shared and spanning labels
+
+[<img src="figs/Shared-and-spanning-labels-1a.svg" width=24%>
+<img src="figs/Shared-and-spanning-labels-1b.svg" width=24%>
+<img src="figs/Shared-and-spanning-labels-1c.svg" width=24%>
+<img src="figs/Shared-and-spanning-labels-1d.svg" width=24%>](src/subplots/Shared-and-spanning-labels-1.jl)
+
+[<img src="figs/Shared-and-spanning-labels-2a.svg" width=40%>
+<img src="figs/Shared-and-spanning-labels-2b.svg" width=40%>](src/subplots/Shared-and-spanning-labels-2.jl)
 
 ## Notes
+
+1. Python's 0-based indexing means all the indices are shifted in these Julia examples.
 
 1. The scoping rules are a bit different between Python and Julia, which require some tweaking for the examples to work.
 
