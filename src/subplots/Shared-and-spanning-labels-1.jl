@@ -11,7 +11,7 @@ M = 40
 colors = proplot.Colors("grays_r", M, left=0.1, right=0.8)
 datas = []
 for scale in (1, 3, 7, 0.2)
-    data = scale * cumsum(rand(N, M) .- 0.5, dims=1)[Int(N/2)+1:end, :]
+    data = scale * cumsum(rand(N, M) .- 0.5, dims=1)[N÷2+1:end, :]
     push!(datas, data)
 end
 
