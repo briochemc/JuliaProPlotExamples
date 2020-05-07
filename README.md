@@ -4,6 +4,7 @@
 Here you will find some (most?) of the [ProPlot](https://proplot.readthedocs.io/en/latest/index.html) examples from the documentation, but translated to Julia using [PyCall.jl](https://github.com/JuliaPy/PyCall.jl).
 
 Note you must install ProPlot first. (And probably some other things.)
+* In order to get the colorbars to position/work properly, you need `xarray`.  However, note that this causes glitches in LaTex formmatting - need to find a workaround (comment by natgeo-wong)
 
 ---
 
