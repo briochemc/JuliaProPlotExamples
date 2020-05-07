@@ -4,7 +4,8 @@
 Here you will find some (most?) of the [ProPlot](https://proplot.readthedocs.io/en/latest/index.html) examples from the documentation, but translated to Julia using [PyCall.jl](https://github.com/JuliaPy/PyCall.jl).
 
 Note you must install ProPlot first. (And probably some other things.)
-* In order to get the colorbars to position/work properly, you need `xarray`.  However, note that this causes glitches in LaTex formmatting - need to find a workaround (comment by natgeo-wong)
+* In order to get the colorbars to position/work properly, you need `xarray`.  However, note that this causes glitches in LaTex formmatting (i.e. `xlabel=L"$\tau$"` doesn't work anymore.
+* In order to address the above, you need to install and use the Julia Package `LaTeXStrings.jl`.  This package is inbuilt into `PyPlot.jl` and reexported for use, however here you must call it explicitly via `using LaTeXStrings`
 
 ---
 
